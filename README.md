@@ -2,7 +2,7 @@
 
 Simple and easy to use security checks for the Heroku platform. 
 
-[![continuous-integration](https://github.com/salesforce/heroku-guardian/workflows/continuous-integration/badge.svg?)](https://github.com/salesforce/heroku-guardian/actions?query=workflow%3Acontinuous-integration)
+[![continuous-integration](https://github.com/heroku/heroku-guardian/workflows/continuous-integration/badge.svg?)](https://github.com/heroku/heroku-guardian/actions?query=workflow%3Acontinuous-integration)
 <p align="center">
   <img src="docs/images/finalguardian.gif">
 </p>
