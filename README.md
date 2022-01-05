@@ -97,7 +97,7 @@ SSO Preferred:
 
 # Requirements
 
-In order to use Heroku Guardian, you must create an API token with either the Heroku console or the Heroku CLI. You can create an API token with the following command from the Heroku CLI:
+In order to use Heroku Guardian, you must create an API token with either the Heroku console or the Heroku CLI. You can create an API token with the following command from the [Heroku CLI](https://devcenter.heroku.com/categories/command-line):
 ```
 heroku authorizations:create
 ```
