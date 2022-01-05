@@ -23,6 +23,6 @@ jobs:
         env:
           HEROKU_PASSWORD: ${{ secrets.HEROKU_PASSWORD }}
         run: |
-          sed '/^api_key/s/=.*$/= '$HEROKU_PASSWORD'/' heroku_guardian/utils/config.ini
+          sed '/^api_key/s/=.*$/= '$HEROKU_PASSWORD'/' config.ini
           make security-test
           make test

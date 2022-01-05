@@ -17,7 +17,7 @@ END = "\033[0m"
 ## Utils that will probably move to where they should be
 
 config = configparser.ConfigParser()
-config.read("heroku_guardian/utils/config.ini")
+config.read("config.ini")
 try:
     api_key = config.get("AUTH", "api_key")
 except:

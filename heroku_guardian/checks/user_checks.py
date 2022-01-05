@@ -8,7 +8,7 @@ from heroku_guardian.utils import utils
 import configparser
 
 config = configparser.ConfigParser()
-config.read("heroku_guardian/utils/config.ini")
+config.read("config.ini")
 
 heroku_addon_providers = config.get("ADDONS", "heroku_addon_providers")
 untrusted_plans = config.get("PLANS", "untrusted_plans")
