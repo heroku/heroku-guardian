@@ -3,6 +3,8 @@
 Simple and easy to use security checks for the Heroku platform. 
 
 [![continuous-integration](https://github.com/heroku/heroku-guardian/workflows/continuous-integration/badge.svg?)](https://github.com/heroku/heroku-guardian/actions?query=workflow%3Acontinuous-integration)
+[![Downloads](https://pepy.tech/badge/heroku-guardian)](https://pepy.tech/project/heroku-guardian)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/_ashishpatel.svg?style=social&label=Follow%20the%20author)](https://twitter.com/_ashishpatel)
 <p align="center">
   <img src="docs/images/finalguardian.gif">
 </p>
