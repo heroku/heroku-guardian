@@ -105,7 +105,7 @@ In order to use Heroku Guardian, you must create an API token with either the He
 heroku authorizations:create
 ```
 
-Once you have the token, you can add it to your configuration file which Heroku Guardian will use to scan your environment. The configuration file is a simple config.ini file that lives in `utils/config.ini`. 
+Once you have the token, you can add it to your configuration file which Heroku Guardian will use to scan your environment. The configuration file is a simple config.ini file that lives in the current directory as `config.ini`. 
 
 Your basic configuration will define what Heroku Guardian should scan for and validate as it compares the API return objects against a known good configuration. This is an example of what your configuration file at that path may look like:
 
