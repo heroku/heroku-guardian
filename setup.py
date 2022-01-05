@@ -45,6 +45,7 @@ setuptools.setup(
     install_requires=[
         'click',
         'colorama',
+        'requests'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
