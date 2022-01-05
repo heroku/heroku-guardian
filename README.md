@@ -147,8 +147,6 @@ email_domain = "@salesforce.com"
 pip3 install --user heroku-guardian
 ```
 
-Note that when installing via pip, you will still need a config.ini file in your current working directory structured like the one in this repo.
-
 **Install via Github**
 
 ```sh-session
