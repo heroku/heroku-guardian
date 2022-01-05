@@ -67,7 +67,7 @@ jobs:
 
       - name: Bump version
         run: |
-          version_file="metabadger/bin/version.py"
+          version_file="heroku_guardian/bin/version.py"
 
           # https://github.com/bridgecrewio/checkov/blob/master/.github/workflows/build.yml#L87-L132
           git config --local user.email "action@github.com"
