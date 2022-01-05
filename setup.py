@@ -31,7 +31,7 @@ def get_description():
 
 
 setuptools.setup(
-    name="heroku_guardian",
+    name="heroku-guardian",
     include_package_data=True,
     version=get_version(),
     author="Ashish Patel",
