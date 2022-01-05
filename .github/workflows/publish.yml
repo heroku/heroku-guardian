@@ -47,6 +47,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git config --global pull.ff only
           git fetch --tags
           git pull origin main
           pip install setuptools wheel twine
