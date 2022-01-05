@@ -49,7 +49,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git config --global pull.ff only
           git fetch --tags
-          git pull origin main
+          git pull --ff-only origin main
           pip install setuptools wheel twine
           python -m setup sdist bdist_wheel
       - name: Publish package
