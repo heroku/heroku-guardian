@@ -152,7 +152,7 @@ pip3 install --user heroku-guardian
 ```sh-session
 $ git clone https://github.com/salesforce/heroku-guardian
 $ cd heroku-guardian
-$ pip install -e .
+$ pip install .
 
 $ heroku-guardian
 Usage: heroku-guardian [OPTIONS] COMMAND [ARGS]...
