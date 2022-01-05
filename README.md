@@ -16,6 +16,7 @@ Simple and easy to use security checks for the Heroku platform.
 Purpose and functionality
 * Provide you with the ability to see various configurations within Heroku that help secure your app/spaces/users
 * Give users a simple CLI tool that can quickly evaluate the security of how they are deploying in Heroku
+* Validate your own compliance requirements against your Heroku infrastructure
 
 # What is Guardian?
 
