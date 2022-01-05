@@ -1,6 +1,6 @@
 SHELL:=/bin/bash
 
-PROJECT := heroku-guardian
+PROJECT := heroku_guardian
 
 # ---------------------------------------------------------------------------------------------------------------------
 # Environment setup and management
@@ -25,17 +25,17 @@ build: setup-env clean
 	python3 -m pip install --upgrade setuptools wheel
 	python3 -m setup -q sdist bdist_wheel
 install: build
-	python3 -m pip install -q ./dist/${PROJECT}*.tar.gz
-	${PROJECT} --help
+	python3 -m pip install -q ./dist/heroku-guardian*.tar.gz
+	heroku-guardian --help
 uninstall:
-	python3 -m pip uninstall ${PROJECT} -y
+	python3 -m pip uninstall heroku-guardian -y
 	python3 -m pip uninstall -r requirements.txt -y
 	python3 -m pip uninstall -r requirements-dev.txt -y
 	python3 -m pip freeze | xargs python3 -m pip uninstall -y
 publish: build
 	python3 -m pip install --upgrade twine
 	python3 -m twine upload dist/*
-	python3 -m pip install ${PROJECT}
+	python3 -m pip install heroku-guardian
 clean:
 	rm -rf dist/
 	rm -rf build/
