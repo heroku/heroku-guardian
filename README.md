@@ -22,7 +22,7 @@ Purpose and functionality
 
 Heroku Guardian was a tool that was created out of a need to further enable engineers with the ability to validate their configurations against a security baseline. When using any PaaS or platform to run your infrastructure or code, applying security best practice is a must. The Heroku platform itself has some great functionality built in to further reduce any potential attack surface that may be used by attackers.
 
-This tool was created from inspiration taken from [Etienne Stalmans](https://github.com/staaldraad) while working on our own internal tooling used for validating Heroku security.
+This tool was created by inspiration taken from [Etienne Stalmans](https://github.com/staaldraad) while working on our own internal tooling used for validating Heroku security.
 
 # What does Guardian check for?
 
