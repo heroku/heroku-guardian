@@ -1,6 +1,6 @@
 Click==7.0
 colorama==0.4.4
-requests==2.26.0
+requests==2.31.0
 bandit==1.7.0
 pylint==2.6.0
 pytest==6.2.2
